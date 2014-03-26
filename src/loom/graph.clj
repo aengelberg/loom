@@ -30,7 +30,7 @@ on adjacency lists."
   (add-nodes* [g nodes] "Add nodes to graph g. See add-nodes")
   (add-edges* [g edges] "Add edges to graph g. See add-edges")
   (remove-nodes* [g nodes] "Remove nodes from graph g. See remove-nodes")
-  (remove-edges* [g edges] "Removes edges from graph g. See remove-edges")
+  (remove-edges* [g edges] "Remove edges from graph g. See remove-edges")
   (remove-all [g] "Removes all nodes and edges from graph g"))
 
 ;; Variadic wrappers
