@@ -476,9 +476,9 @@ on adjacency lists."
   (apply build-graph (BasicEditableDigraph. #{} {} {}) inits))
 
 (defn weighted-graph
-  [& inits]
   "Create an weighted, undirected graph. inits can be edges, adjacency maps,
   or graphs"
+  [& inits]
   (apply build-graph (BasicEditableWeightedGraph. #{} {}) inits))
 
 (defn weighted-digraph
